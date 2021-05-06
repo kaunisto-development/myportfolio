@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GlassMorphism</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+<!-- Page Loader -->
+
+<div class="page-loader">
+  <div></div>
+</div>
+
+<!-- BG animation -->
+
+<div class="bg-shapes">
+  <div class="shape-1"></div>
+  <div class="shape-2"></div>
+  <div class="shape-3"></div>
+  <div class="shape-4"></div>
+  <div class="shape-5"></div>
+  <div class="shape-6"></div>
+  <div class="shape-7"></div>
+</div>
+
+<!-- Overlay -->
+
+<div class="overlay">
+
+</div>
+
+<!-- Main -->
+
+<div class="main hidden">
+
+<!------------------------------------------------------------------------------------ Header ---------------------------------------------------------------------------------------------------->
+
+<header class="header">
+  <div class="container">
+    <div class="row flex-end">
+      <button type="button" class="nav-toggler">
+        <span></span>
+      </button>
+      <nav class="nav">
+        <div class="nav-inner">
+          <ul>
+            <li><a href="#home" class="nav-item link-item">home</a></li>
+            <li><a href="#about" class="nav-item link-item">about</a></li>
+            <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+            <li><a href="#contact" class="nav-item link-item">contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!-- Home Section -->
+
+<section class="home-section aic" id="home">
+  <div class="container">
+    <div class="row aic">
+      <div class="home-text">
+        <p>Hello, I'm</p>
+        <h1>Alex</h1>
+        <h2>front-end-developer</h2>
+        <a href="#about" class="btn link-item">more about me</a>
+        <a href="#portfolio" class="btn link-item">my portfolio</a>
+      </div>
+      <div class="home-img">
+       <div class="img-box">
+         <img src="img/about-img.png" alt="profile img">
+       </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!------------------------------------------------------------------------------------------ About ----------------------------------------------------------------------------------------------->
+
+<section class="about-section sec-padding" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>about me</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="about-img">
+        <div class="img-box">
+          <img src="img/about-img.png" alt="about img">
+        </div>
+      </div>
+      <div class="about-text">
+        <p>Hi I’m Alex. I’m 30-year-old front-end-developer from Helsinki. I develop stylish and functional websites for everyone. In my portfolio you can find examples of my works that I have done on freelance. I write with clean code. I don`t hesitate to use preprocessors and jQuery. <span class="quote">Come with me if you wanna Website.</span>
+          </p>
+        <h3>skills</h3>
+        <div class="skills">
+          <div class="skill-item">html</div>
+          <div class="skill-item">css</div>
+          <div class="skill-item">javascript</div>
+          <div class="skill-item">jquery</div>
+          <div class="skill-item">tilda</div>
+          <div class="skill-item">figma</div>
+          <div class="skill-item">photoshop</div>
+        </div>
+
+        <div class="about-tabs">
+          <button type="button" class="tab-item active" data-target="#education">education</button>
+          <button type="button" class="tab-item" data-target="#experience">experience</button>
+        </div>
+
+        <!--Education-->
+
+        <div class="tab-content active" id="education">
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="date">2013 - 2014</span>
+              <h4>BITE Degree Programme in Business Information Technology - <span><br>Haaga-Helia</span></h4>
+              <p>I studied most of all Business and IT but the biggest part of my experience in IT I got by myself and via freelance with other countries.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience -->
+
+        <div class="tab-content" id="experience">
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="date">2020 - 2021</span>
+              <h4>front-end-developer - <span>Freelance</span></h4>
+              <p>Ive been doing many freelance projects, a couple of them you can find on my portfolio page</p>
+            </div>
+          </div>
+        </div>
+        <a href="#portfolio"  class="btn link-item">portfolio</a>
+        <a href="#contact"  class="btn link-item">contact me</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------------------------------------------------------------------------------------ Portfolio ------------------------------------------------------------------------------------------------->
+
+<section class="portfolio-section sec-padding" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>recent work</h2>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Portfolio-item -->
+
+      <div class="portfolio-item">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/Portfolio/1.png" alt="portfolio item thumb">
+        </div>
+        <button type="button" class="btn btn-view-project">view details</button>
+        <h3 class="portfolio-item-title">mavic 2 landing page</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>The landing page for the mavic 2 pro. Here I used fullpage.js, preprocessors, a couple of animationsThe landing page for the mavic 2 pro. Here I used fullpage.js, preprocessors, a couple of animations.</p>
+          </div>
+          <div class="general-info">
+            <ul>
+              <li>Created - <span>10 Mar 2021</span></li>
+              <li>technologies used - <span>html, css, jquery, photoshop</span></li>
+              <li>link - <span><a href="https://kaunisto-development.github.io/mavic/" target="_blank">https://kaunisto-development.github.io/mavic/</a></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/Portfolio/2.png" alt="portfolio item thumb">
+        </div>
+        <button type="button" class="btn btn-view-project">view details</button>
+        <h3 class="portfolio-item-title">godive landing page</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>The godive is a personal website for the diving company. Here i used a couple of animations and jquery.</p>
+          </div>
+          <div class="general-info">
+            <ul>
+              <li>Created - <span>28 Mar 2021</span></li>
+              <li>technologies used - <span>html, css, jquery, photoshop</span></li>
+              <li>link - <span><a href="https://kaunisto-development.github.io/godive/" target="_blank">www.kaunisto-development.github.io/godive/</a></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/Portfolio/3.png" alt="portfolio item thumb">
+        </div>
+        <button type="button" class="btn btn-view-project">view details</button>
+        <h3 class="portfolio-item-title">coco-pizza landing page</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>Very comfy to use and lovely landing page for the pizza restaurant, here I used jquery and animations</p>
+          </div>
+          <div class="general-info">
+            <ul>
+              <li>Created - <span>10 Apr 2021</span></li>
+              <li>technologies used - <span>html, css, js, photoshop</span></li>
+              <li>link - <span><a href="https://kaunisto-development.github.io/coco-pizza/" target="_blank">www.kaunisto-development.github.io/coco-pizza/</a></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/Portfolio/4.png" alt="portfolio item thumb">
+        </div>
+        <button type="button" class="btn btn-view-project">view details</button>
+        <h3 class="portfolio-item-title">moderno marketplace website</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>The excellent multi-page website for moderno marketplace. Here I have done all what should front-end-developer be able to do. I used jquery and the least quantity of animations</p>
+          </div>
+          <div class="general-info">
+            <ul>
+              <li>Created - <span>4 Feb 2021</span></li>
+              <li>technologies used - <span>html, css, jquery, figma</span></li>
+              <li>link - <span><a href="https://kaunisto-development.github.io/moderno/" target="_blank">www.kaunisto-development.github.io/moderno/</a></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/Portfolio/5.png" alt="portfolio item thumb">
+        </div>
+        <button type="button" class="btn btn-view-project">view details</button>
+        <h3 class="portfolio-item-title">sushi-palace landing page</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>Another stylish and beautiful landing page for the sushi restaurant in Great Britain. Here I used animations and javascript.</p>
+          </div>
+          <div class="general-info">
+            <ul>
+              <li>Created - <span>25 Apr 2021</span></li>
+              <li>technologies used - <span>html, css, js, photoshop</span></li>
+              <li>link - <span><a href="https://kaunisto-development.github.io/sushi-palace/" target="_blank">kaunisto-development.github.io/sushi-palace/</a></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/Portfolio/6.png" alt="portfolio item thumb">
+        </div>
+        <button type="button" class="btn btn-view-project">view details</button>
+        <h3 class="portfolio-item-title">cyberpunk portfolio</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>This is my very first portfolio site created with Tilda. There is some glitch animations and other glowing stuff. Also there is a mockup of my first Finnish website for the web-company.</p>
+          </div>
+          <div class="general-info">
+            <ul>
+              <li>Created - <span>24 Oct 2020</span></li>
+              <li>technologies used - <span>Tilda, Photoshop</span></li>
+              <li>link - <span><a href="http://project2704679.tilda.ws/" target="_blank">http://project2704679.tilda.ws/</a></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-------------------------------------------------------------------------------------- Contact ------------------------------------------------------------------------------------------------->
+
+<section class="contact-section sec-padding" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>contact me</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="contact-form">
+        <form>
+          <div class="row">
+            <div class="input-group">
+              <input type="text" placeholder="Name" class="input-control" required>
+            </div>
+            <div class="input-group">
+              <input type="text" placeholder="Email" class="input-control" required>
+            </div>
+            <div class="input-group">
+              <input type="text" placeholder="Subject" class="input-control" required>
+            </div>
+            <div class="input-group">
+              <textarea placeholder="Message" class="input-control" required></textarea>
+            </div>
+            <div class="submit-btn">
+              <button type="button" class="btn">send message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="contact-info">
+        <div class="contact-info-item">
+          <h3>Email</h3>
+          <p>alexkaunisto@gmail.com</p>
+        </div>
+        <div class="contact-info-item">
+          <h3>Phone</h3>
+          <p>+35840*** ****</p>
+        </div>
+        <div class="contact-info-item">
+          <h3>Follow me</h3>
+          <div class="social-links">
+            <a href="https://www.facebook.com/alexey.kaunisto/" target="_blank"><i class="icon-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/alex-kaunisto-1606001b9/" target="_blank"><i class="icon-linkedin-square"></i></a>
+            <a href="mailto:alexkaunisto@gmail.com" target="_blank"><i class="icon-envelope-o"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<!-- Portfolio Item Popup -->
+
+<div class="portfolio-popup">
+  <div class="pp-inner">
+    <div class="pp-content">
+      <div class="pp-header">
+        <button type="button" class="btn btn-pp-close"><i class="icon-close"></i></button>
+        <div class="pp-thumbnail">
+          <img src="img/Portfolio/1.png" alt="pp thumbnail">
+        </div>
+        <h3></h3>
+      </div>
+      <div class="pp-body">
+    
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
